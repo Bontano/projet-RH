@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../style/styleemploye.css">
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="employeeContenair">
+			{% for employee in employees %}
+				<div class="employeeCard">
+
+					<div class="flex1"><img src="./uploads/{{employee.photo}}"></div>
+					<div class="flex1">{{employee.nom}}</div>
+					<div class="flex1">{{employee.fonction}}</div>
+					<div class="flex1">{{employee.blame}}</div>
+
+
+					<button>
+						<a href="/modifier/{{employee._id}}">Modifier</a>
+					</button>
+					<button>
+						<a href="/blame/{{employee._id}}">blame</a>
+					</button>
+
+					<button>
+						<a href="/delete/{{employee._id}}"><img src="../uploads/profil-axel.png1675436718351.png" alt=""></a>
+					</button>
+				</div>
+			{% endfor %}
+		</body>
+	</body>
+</html></div></body></html>

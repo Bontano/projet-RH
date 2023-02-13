@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style/createmploye.css">
+
+		<title>Document</title>
+	</head>
+	<header></header>
+	<body>
+		<main>
+			<div class="form">
+				<form action="/createEmployee" method="POST" enctype="multipart/form-data" class='login-form'>
+					<input type="file" placeholder="Image" name="photo" required>
+					<input type="text" placeholder="Nom" name="nom" required>
+					<input type="text" placeholder="fonction" name="fonction" required>
+					<input type="text" placeholder="Nombre Blame" name="blame" required>
+					<button type="submit">Envoyer</button>
+				</form>
+				<a href="/affichemployee"><button>liste employer</button></a>
+			</div>
+		</main>
+	</body>
+	<footer></footer>
+</html>

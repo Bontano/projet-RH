@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.employeeCard{
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.flex1{
+    display: flex;
+    flex: 1;
+}
+
+.flex1 img{
+max-width: 80%;
+
+}
+
+.employeeContenair{
+    display: flex;
+    flex-direction: column;
+}
+
+button a img {
+    max-height: 80%;
+}
+
+/* button{
+    border:unset;
+    background-color: unset;
+ 
+}
+
+button a {
+text-decoration: none;
+color: black;
+} */
